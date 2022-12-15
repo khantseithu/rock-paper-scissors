@@ -56,3 +56,18 @@ h2 {
   width: 100%;
   background: #212529;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 0.7rem;
+  }
+
+  button {
+    display: block !important;
+    margin: 10px;
+  }
+}
